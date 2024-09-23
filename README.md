@@ -102,6 +102,7 @@ http://localhost:8080/apiEmail/send
 - **toUser:** destinatarios
 - **subject:** titulo del mensaje
 - **message:** cuerpo del mensaje
+- **file:** archivo
 
 ## Clonar repositorio
 ```bash
