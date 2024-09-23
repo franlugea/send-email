@@ -3,6 +3,19 @@ Esta API permite enviar correos electrónicos a multiples personas utilizando Sp
 sin archivos.
 
 
+1. [Herramientas](#herramientas)
+2. [Dependencias](#dependencias)
+3. [Configuración](#configuración)
+   - [Propiedades](#properties)
+   - [Obtener contraseña de aplicación](#obtener-contraseña-de-aplicación)
+4. [Uso en Postman](#uso-en-postman)
+   - [Enviar correo sin archivos](#sin-archivos)
+   - [Enviar correo con archivos](#con-archivos)
+5. [Clonar repositorio](#clonar-repositorio)
+
+
+
+
 ## Herramientas
 - Java 17 
 - Spring Boot 3
@@ -40,7 +53,9 @@ sin archivos.
 	</dependencies>
 
 ```
-## Configuracion
+## Configuración
+
+### Properties
  ```
 email.sender.username=ejemplo@gmail.com
 email.sender.password=rnuhzcqqdrplyhxf
@@ -58,8 +73,7 @@ spring.servlet.multipart.max-request-size=10MB
 
 
 
-
-### Obtener contraseña de aplicacion
+### Obtener contraseña de aplicación
 1. Ve a tu cuenta de <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1&nlr=1" target="_blank">Google</a>
 2. En la sección de "Seguridad" o en el buscador, busca "Contraseñas de aplicaciones"
 3. Haz clic en "Contraseñas de aplicaciones"
