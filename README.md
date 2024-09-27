@@ -58,7 +58,7 @@ sin archivos.
 ### Properties
  ```
 email.sender.username=ejemplo@gmail.com
-email.sender.password=rnuhzcqqdrplyhxf
+email.sender.password=jdiednrbeidjhxx
 
 spring.servlet.multipart.enabled=true
 spring.servlet.multipart.max-file-size=10MB
